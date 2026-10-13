@@ -1,4 +1,5 @@
 # Real-Time Face Detection and Age Range Estimation
+Created by: Ashlesha Kathe
 
 A Python webcam application that detects faces, draws a green rectangle around each detected face, and displays a predicted age range above it. Face detection uses OpenCV's Haar cascade; age estimation uses an age classification model through OpenCV's DNN module.
 
@@ -97,7 +98,4 @@ The age network returns broad ranges, not exact ages. Lighting, camera quality, 
 
 The age classifier is from the work by Gil Levi and Tal Hassner, *Age and Gender Classification Using Convolutional Neural Networks*, CVPR Workshop on Analysis and Modeling of Faces and Gestures, 2015. See the [original model repository](https://github.com/GilLevi/AgeGenderDeepLearning) for the model and research details. Review the model source's terms before redistribution or public/commercial use.
 
-## License
-
-No license has been selected for this project yet. Add a project license before distributing or reusing it publicly.
 
